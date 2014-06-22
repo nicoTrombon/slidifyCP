@@ -1,0 +1,37 @@
+---
+title       : Simulation of Bass Model
+subtitle    : Effect of variations on model parameters
+author      : Nicolas Oteiza
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [bootstrap, mathjax, quiz]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+ext_widgets : {rCharts: [libraries/nvd3]}
+---
+
+## Introduction
+
+The Bass model for the diffusion of innovations was introduced by Frank Bass in 1969.
+Since then, it has become a reference in terms of studying new product diffusion.
+
+The application presented here tries to show the effect of varying the model's two main parameters.
+Parameter 'p' increases the "external effect" also known as the "coefficient of innovation".
+Parameter 'q' incresases the "internal effect" also known as the "coefficient of imitation".
+
+The aggregate sales (S) as described by the Bass Model is shown as follows:
+
+$$S_t= \frac{1-e^{-(p+q)t}}{1+\frac{p}{q}e^{(p+q)t}}$$
+
+Usually, the aggregate sales curve will follow an 'S' shape, with the innovators coming in at first, and the effect of imitation getting stronger when more consumers have already adopted the innovation.
+
+
+--- .class #id 
+
+## Slide 2
+
+
+
+
