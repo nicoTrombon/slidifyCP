@@ -1,7 +1,7 @@
 #Slidify
 #make sure you have devtools
 #install.packages('devtools')
-library(devtools)
+#library(devtools)
 #install Slidify
 #install_github('slidify', 'ramnathv')
 #install_github('slidifyLibraries', 'ramnathv')
@@ -12,8 +12,7 @@ author("Course Proyect")
 slidify('index.Rmd')
 library(knitr)
 browseURL('index.html')
-setwd('D:/Nico/Copy/Coursera/Data Products/Slidify/SlidifyCP/Course Proyect')
-publish(user="nicoTrombon", repo="slidifyCP")
+setwd('C:/Users/Nico/Documents/GitHub/slidifyCP')
 
 #You can no longer use the slidify function,
 #since we need this document to be run using a
