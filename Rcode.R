@@ -12,6 +12,9 @@ author("Course Proyect")
 slidify('index.Rmd')
 library(knitr)
 browseURL('index.html')
+
+publish(user="nicoTrombone", repo="appPresentation")
+
 setwd('C:/Users/Nico/Documents/GitHub/slidifyCP')
 
 #You can no longer use the slidify function,
