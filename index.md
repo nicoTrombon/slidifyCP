@@ -49,7 +49,7 @@ This application allows the user to modify
 + Parameter 'p', and
 + Parameter 'q'
 
-And dinamically observe the new aggregate sales curve corresponding to those parameters.
+And _dinamically_ observe the new aggregate sales curve corresponding to those parameters.
 
 --- .class #id
 
@@ -76,7 +76,6 @@ print(MarketShare)
 ## [17] 0.97526 0.98361 0.98917 0.99286 0.99530
 ```
 
----
 
 
 
